@@ -52,7 +52,7 @@ function renderPets(pets) {
           <span class="card-tag">${pet.type}</span>
           <span class="card-tag">${pet.breed || 'Sem raça definida'}</span>
           <span class="card-tag">${pet.size}</span>
-          <span class="card-tag">${pet.age} anos</span>
+          <span class="card-tag">${pet.age}</span>
         </div>
         <p class="card-text">${pet.description}</p>
         <div class="card-footer">

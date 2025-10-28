@@ -18,7 +18,7 @@ CREATE TABLE pets (
   type VARCHAR(50) NOT NULL,
   name VARCHAR(100) NOT NULL,
   breed VARCHAR(100),
-  age INT,
+  age VARCHAR(10),
   size VARCHAR(50),
   gender VARCHAR(10),
   description TEXT,
@@ -34,8 +34,7 @@ CREATE TABLE adoption_requests (
   email VARCHAR(100) NOT NULL,
   phone VARCHAR(20),
   address VARCHAR(200),
-  reason TEXT,
-petsusers  experience VARCHAR(50),
+  experience VARCHAR(50),
   home VARCHAR(50),
   createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
